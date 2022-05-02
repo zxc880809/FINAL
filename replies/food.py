@@ -1,7 +1,7 @@
 from linebot.models import *
 
 food_dict = {
-    "找吃！",
+    "找吃的222！",
     "早餐！",
     "午餐！",
     "晚餐！",
