@@ -64,7 +64,7 @@ def choose_dorm(sex):
             text="請問您想要哪一種宿舍！",
             quick_reply=QuickReply(
                 items=[
-                    QuickReplyButton(action=MessageAction(label="TypeA", text="TypeA")),
+                    QuickReplyButton(action=MessageAction(label="", text="TypeA")),
                     QuickReplyButton(action=MessageAction(label="TypeB", text="TypeB")),
                     QuickReplyButton(action=MessageAction(label="TypeC", text="TypeC")),
                     QuickReplyButton(action=MessageAction(label="TypeD", text="TypeD"))
